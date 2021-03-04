@@ -1,0 +1,56 @@
+.fixed-top {
+  z-index: 1080;
+}
+
+.navbar.menu{
+    background-color: #180B26;
+    color: #F4EFEF;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    padding: 0rem 1rem;
+    border-bottom: 2px solid rgba(255,255,255,0.2);
+}
+
+.navbar-light .navbar-toggler{
+  color: transparent;
+  border-color: transparent;
+}
+
+button:focus {
+    outline: transparent;
+    outline: transparent;
+}
+
+img.casita {
+    max-width: 25px;
+}
+
+.navbar-nav{
+  padding-left: 1rem!important;
+}
+
+.navbar-toggler-icon{
+  background-image: url(/assets/img/casita.png);
+}
+
+.navbar-toggler-icon:focus{
+  outline:none;
+}
+.nav-link.principal{
+  font-size: 1em;
+  color: #F4EFEF;
+}
+
+.nav-link.principal:hover{
+  color: #99C8F2;
+}
+.nav-link.secundario{
+  font-size: .8em;
+  display: inline-flex;
+  color: #F4EFEF;
+  font-weight: 400;
+}
+
+.nav-link.secundario:hover{
+  color: #99C8F2;
+}

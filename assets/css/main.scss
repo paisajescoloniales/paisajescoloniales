@@ -1,0 +1,168 @@
+---
+---
+/*
+@import 'bootstrap/bootstrap';
+*/
+
+@import "bootstrap/scss/bootstrap";
+@import "wax";
+
+h1{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  text-align: center;
+}
+
+h2{
+  font-family: 'Lora', serif;
+  font-weight: 800;
+  font-size: 2.2em;
+  letter-spacing: 1.5px;
+}
+
+h3{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+}
+
+h4{
+  font-family: 'Lora', serif;
+  font-weight: 600;
+}
+
+h5{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  letter-spacing: .6px;
+  /*color: #5881A6;
+  text-align: right;*/
+}
+
+h6{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: .8em;
+}
+
+p{
+  font-size: 18px;
+  font-family: 'Lora', serif;
+  font-weight: 300;
+}
+
+p.piedefoto{
+  font-size: .8em !important;
+  font-family: 'Raleway', sans-serif!important;
+  font-weight: 400!important;
+  padding-top: 1%;
+  line-height: 1.1;
+}
+
+img{
+  width: 100%;
+}
+
+li{
+
+}
+.row{
+  width: 100%;
+}
+
+.bg-azul{
+  background-color: #739CBF;
+  color: #180B26;
+}
+
+
+.bg-oscuro{
+  background-color: #180B26;
+  color: #F4EFEF;
+  padding-bottom: 5%;
+}
+
+.bg-crema{
+  background-color: #F4EFEF;
+  color: #180B26;
+}
+
+
+.bg-img{
+  background-image: url("/assets/img/mapa.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 120% auto;
+  width: 100%;
+  margin: 0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+
+.bg-img .full-container{
+  width: 100%;
+  background-color: rgba(24, 11, 38, 0.7);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+
+
+
+/*
+variable declaration
+*/
+
+/* branding */
+$logo: url("{{ '/assets/logo.png' | absolute_url }}");
+
+/* text */
+
+$body-font:       'Raleway', 'sans-serif';
+$heading-font:    'Raleway', 'sans-serif';
+
+
+/* Image Size */
+
+$thumbnail-height: 140px;
+$thumbnail-width: 140px;
+
+/* colors */
+
+$text-color:      #180B26;
+$bg-color:        #F4EFEF;
+$bg-color-dark:   #180B26;
+$neutral:         #f9f4f4;
+$accent-light:    #966d09;
+$accent-dark:     #644906;
+$text-color2:     #739CBF;
+/* viewport sizes
+
+$max-width:       800px;*/
+
+/* margins */
+
+$less-margin:     1.0rem;
+$margin:          1.5rem;
+$more-margin:     2.0rem;
+$super-margin:    3.0rem;
+
+
+$viewer-height:   550px;
+$parallax-height: 350px;
+$footer-height:   250px;
+
+/*
+font & asset import
+---
+sitemap: false
+---
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&font-display=auto');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import 'wax';*/

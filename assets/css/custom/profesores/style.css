@@ -1,0 +1,32 @@
+.btn.btn-prof{
+  text-align: center;
+  width: 280px;
+  margin-top: 5%;
+  line-height: 1.2;
+}
+
+.btn.btn-prof .curso{
+  text-transform: uppercase;
+  background-color: #739CBF;
+  color: #180B26;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  letter-spacing: 1px;
+  font-size: 1.2em;
+  border-radius: 6px;
+  padding: .8em;
+}
+
+.btn.btn-prof .curso:hover{
+  cursor: pointer;
+  color: #739CBF;
+  background-color: #180B26;
+  border: solid 1px #739CBF;
+}
+section.botones-curso{
+  padding-bottom: 5%;
+}
+
+section.intro-profesores{
+  padding-top: 2%;
+}

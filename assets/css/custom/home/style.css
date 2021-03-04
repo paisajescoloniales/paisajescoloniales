@@ -1,0 +1,105 @@
+
+.bg-img h1{
+  text-align: right;
+  color: #F4EFEF;
+  font-size: 6em;
+  letter-spacing: .3rem;
+  font-weight: 800;
+  max-width: 100%;
+}
+
+.bg-img h4{
+  text-align: right;
+   color: #8FADBF;
+   margin-top: -1.5%;
+   font-size: 1.5em;
+}
+
+.title{
+  position: absolute;
+  top: 15%;
+  right: 15%
+}
+
+.intro{
+  margin: auto;
+  display: block;
+  vertical-align: middle;
+  max-width: 80%;
+}
+.bg-img h3{
+  text-align: center;
+  color: #F4EFEF;
+  font-weight: 600;
+  font-size: 1.25em;
+}
+img.mapa-home{
+  max-width: 85%;
+  padding-bottom: 1em;
+  padding-top: 1em;
+}
+
+a.enter{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+    color: #F4EFEF;
+}
+
+.btn.btn-home{
+  text-align: center;
+  width: 280px;
+margin-top: 5%;
+line-height: 1.2;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.botones{
+  vertical-align: middle;
+  margin-top: 10%;
+}
+.btn.btn-home .call{
+  text-transform: uppercase;
+  background-color: #739CBF;
+  color: #180B26;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  letter-spacing: 1px;
+  font-size: 1.5em;
+  border-radius: 6px;
+  padding: .3em;
+}
+
+.btn.btn-home .call:hover{
+  cursor: pointer;
+  color: #739CBF;
+  background-color: #180B26;
+  border: solid 1px #739CBF;
+}
+.btn.btn-home .explain{
+  color: #739CBF;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+    font-size: 1.1em;
+}
+
+.material-adicional{
+  margin-top: 30%;
+}
+
+.adicional{
+    color: #739CBF;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    max-width: 75%;
+    text-align: left;
+  margin: 10% auto;
+}
+a.link-adicional{
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-weight: 700;
+  color: #739CBF;
+}
