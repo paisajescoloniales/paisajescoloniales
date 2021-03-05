@@ -1,10 +1,6 @@
 ---
 ---
-/*
-@import 'bootstrap/bootstrap';
-*/
-
-@import "bootstrap/scss/bootstrap";
+@import "../../bootstrap/scss/bootstrap";
 @import "wax";
 
 h1{
@@ -34,8 +30,6 @@ h5{
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
   letter-spacing: .6px;
-  /*color: #5881A6;
-  text-align: right;*/
 }
 
 h6{
@@ -61,10 +55,6 @@ p.piedefoto{
 img{
   width: 100%;
 }
-
-li{
-
-}
 .row{
   width: 100%;
 }
@@ -73,7 +63,6 @@ li{
   background-color: #739CBF;
   color: #180B26;
 }
-
 
 .bg-oscuro{
   background-color: #180B26;
@@ -85,7 +74,6 @@ li{
   background-color: #F4EFEF;
   color: #180B26;
 }
-
 
 .bg-img{
   background-image: url("/assets/img/mapa.png");
@@ -110,54 +98,8 @@ li{
   flex-direction: column;
   justify-content: space-around;
 }
-
-
-
-
 /*
-variable declaration
-*/
 
-/* branding */
-$logo: url("{{ '/assets/logo.png' | absolute_url }}");
-
-/* text */
-
-$body-font:       'Raleway', 'sans-serif';
-$heading-font:    'Raleway', 'sans-serif';
-
-
-/* Image Size */
-
-$thumbnail-height: 140px;
-$thumbnail-width: 140px;
-
-/* colors */
-
-$text-color:      #180B26;
-$bg-color:        #F4EFEF;
-$bg-color-dark:   #180B26;
-$neutral:         #f9f4f4;
-$accent-light:    #966d09;
-$accent-dark:     #644906;
-$text-color2:     #739CBF;
-/* viewport sizes
-
-$max-width:       800px;*/
-
-/* margins */
-
-$less-margin:     1.0rem;
-$margin:          1.5rem;
-$more-margin:     2.0rem;
-$super-margin:    3.0rem;
-
-
-$viewer-height:   550px;
-$parallax-height: 350px;
-$footer-height:   250px;
-
-/*
 font & asset import
 ---
 sitemap: false
