@@ -21,7 +21,7 @@
 title: Paisajes Coloniales
 email: paisajescoloniales@gmail.com
 description:
-baseurl: "desarrollo" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:
 
@@ -31,12 +31,6 @@ plugins:
   - jekyll-feed
 sass:
   sass_dir: assets/css
-exclude:
-  - Gemfile*
-  - Rakefile
-  - vendor
-  - spec
-  - README.md
 webrick:
   headers:
     'Access-Control-Allow-Origin': '*'
@@ -71,6 +65,11 @@ kramdown:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+#   - Rakefile
+#   - vendor
+#   - spec
+#   - README.md
+
 
 
 # --------------------------------------------------------------
