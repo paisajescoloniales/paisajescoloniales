@@ -21,7 +21,7 @@
 title: Paisajes Coloniales
 email: paisajescoloniales@gmail.com
 description:
-baseurl: "desarrollo" # the subpath of your site, e.g. /blog
+baseurl: "/desarrollo" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:
 
