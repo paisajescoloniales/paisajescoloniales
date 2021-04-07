@@ -1,11 +1,11 @@
 
 .bg-img h1{
-  text-align: right;
   color: #F4EFEF;
-  font-size: 6em;
+  font-size: 5.8em;
   letter-spacing: .3rem;
   font-weight: 800;
   max-width: 100%;
+  padding-bottom: 1%;
 }
 
 .bg-img h4{
@@ -18,7 +18,8 @@
 .title{
   position: absolute;
   top: 15%;
-  right: 15%
+  right: 5%;
+  left: 5%;
 }
 
 .intro{
@@ -103,3 +104,40 @@ a.link-adicional{
   font-weight: 700;
   color: #739CBF;
 }
+
+a.link-adicional:hover{
+  color: #F4EFEF;
+}
+
+@media screen and (max-width: 1200px) {
+   .bg-img h1{
+     font-size: 5em;
+   }
+   .bg-img h4{
+     font-size: 1.3em;
+   }
+ }
+
+ @media screen and (max-width: 1080px) {
+    .bg-img h1{
+      font-size: 4em;
+    }
+    .bg-img h4{
+      font-size: 1.1em;
+    }
+  }
+
+
+  @media screen and (max-width: 870px) {
+     .bg-img h1{
+       font-size: 3.2em;
+     }
+     .bg-img h3{
+       font-size: 1.1em;
+     }
+   }
+  @media screen and (max-width: 768px){
+   .material-adicional {
+       margin-top: 5%;
+   }
+ }

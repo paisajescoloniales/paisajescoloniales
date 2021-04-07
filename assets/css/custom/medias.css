@@ -1,7 +1,7 @@
 
 @media screen and (max-width: 870px) {
   .bg-img{
-    background-size: 260%;
+    background-size: 260%!important;
   }
 }
 
