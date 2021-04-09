@@ -9,10 +9,11 @@
 }
 
 .bg-img h4{
-  text-align: right;
    color: #8FADBF;
    margin-top: -1.5%;
    font-size: 1.5em;
+   float: right;
+padding-right: 8%;
 }
 
 .title{
