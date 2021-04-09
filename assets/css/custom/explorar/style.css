@@ -15,15 +15,18 @@
 .nav-pills .nav-link.explorar-pill{
   background-color: #739CBF;
   text-align: center;
-  font-family: 'Lora', serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   letter-spacing: .5px;
   color: #180B26;
   margin: 2%;
+  text-transform: uppercase;
 }
 
 .nav-pills .nav-link.explorar-pill.active{
-  background-color: #F4EFEF;
+  background-color: #180B26;
+  color: #739CBF;
+  border: 1px solid #739CBF;
 }
 
 .tab-pane.explorar-tab{

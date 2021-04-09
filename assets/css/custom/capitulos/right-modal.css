@@ -25,8 +25,8 @@
 }
 
 .modal-header{
-  border-bottom: none;
-  padding-bottom: 4%;
+  border-bottom: none!important;
+  padding-bottom: 4%!important;
 }
 
 .modal.right .modal-body {
@@ -53,9 +53,11 @@
 }
 
 .modal-footer{
-  border-top:none;
+  border-top:none!important;
   text-decoration: underline;
 }
+
+
 .modal-dialog.modal-col8{
   max-width: 66.6666666667%
 }
