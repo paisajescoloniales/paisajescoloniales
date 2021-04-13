@@ -13,7 +13,6 @@
    margin-top: -1.5%;
    font-size: 1.5em;
    float: right;
-padding-right: 8%;
 }
 
 .title{
@@ -21,6 +20,8 @@ padding-right: 8%;
   top: 15%;
   right: 5%;
   left: 5%;
+  max-width: fit-content;
+  margin: auto;
 }
 
 .intro{
@@ -55,6 +56,7 @@ line-height: 1.2;
 display: block;
 margin-left: auto;
 margin-right: auto;
+font-size: 1em!important;
 }
 
 .botones{
@@ -94,7 +96,7 @@ margin-right: auto;
     color: #739CBF;
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
-    font-size: 1rem;
+    font-size: 1em;
     max-width: 75%;
     text-align: left;
   margin: 10% auto;
@@ -129,16 +131,67 @@ a.link-adicional:hover{
   }
 
 
-  @media screen and (max-width: 870px) {
+  @media screen and (max-width: 885px) {
      .bg-img h1{
        font-size: 3.2em;
      }
      .bg-img h3{
-       font-size: 1.1em;
+       font-size: 1em;
+     }
+     .btn.btn-home,.adicional{
+       font-size: .9em;
      }
    }
   @media screen and (max-width: 768px){
    .material-adicional {
        margin-top: 5%;
    }
+
+   .adicional{
+     max-width: 100%;
+     margin: 2% auto;
+   }
+
+   .btn.btn-home{
+     display: inline-block;
+   }
+
+   .botones {
+    margin-top: 7%;
+    }
+
+    img.mapa-home {
+    max-width: 100%;
  }
+
+ @media screen and (max-width: 600px) {
+    .bg-img h1{
+      font-size: 3em;
+      letter-spacing: .1rem;
+    }
+
+    .bg-img h4 {
+    font-size: .9em;
+    text-align: right;
+  }
+  .bg-img h3{
+      font-size: .8em;
+    }
+
+  .intro{
+    max-width: 90%;
+    top: 50%;
+    position: absolute;
+    vertical-align: unset
+  }
+
+  .btn.btn-home,.adicional{
+    font-size: .8em;
+  }
+  }
+
+  @media screen and (max-width: 325px) {
+     .bg-img h1{
+       font-size: 2.7em;
+     }
+   }

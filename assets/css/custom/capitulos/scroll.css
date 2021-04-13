@@ -337,11 +337,11 @@ span.fuente-link{
   text-decoration: underline;
 }
 .btn-clave{
-  background-color: #F3EDE6;
-  border-radius: 4px;
-  font-weight: 600;
-  color: #8B3E34;
-  padding: 5px;
+  background-color: #F3EDE6!important;
+  border-radius: 4px!important;
+  font-weight: 600!important;
+  color: #8B3E34!important;
+  padding: 5px!important;
 }
 
 .btn-clave:hover{
