@@ -85,7 +85,7 @@ font-size: 1em!important;
   color: #739CBF;
   font-family: 'Raleway', sans-serif;
   font-weight: 300;
-    font-size: 1.1em;
+    font-size: 1em;
 }
 
 .material-adicional{
@@ -143,6 +143,12 @@ a.link-adicional:hover{
      }
    }
   @media screen and (max-width: 768px){
+
+    .bg-img h4{
+      font-size: 1em;
+      float: none;
+    }
+
    .material-adicional {
        margin-top: 5%;
    }
