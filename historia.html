@@ -4,8 +4,6 @@ layout: default_main
 permalink: /historia
 ---
 
-<body>
-
   <!-- partial:index.partial.html -->
   <!-- CAPÍTULO 0 -->
   <section class="panel bg-azul">
@@ -2132,31 +2130,7 @@ Los resguardos otorgaban “posesión” de la tierra a los indígenas, sin que 
 
 
 
-  <script>
-    $(document).on("click", "[data-toggle='modal']", function() {
-      $(".modal-backdrop").eq(0).css({
-        "display": "none"
-      });
 
-      // if more than 1 modal openned.
-      if ($(".modal-backdrop").length > 1) {
-
-        // move backdrop up (in z)
-        var ZindexBackdrop = parseInt($(".modal-backdrop").eq(0).css("z-index")) + 20;
-        console.log("Backdrop z-index: " + ZindexBackdrop);
-        $(".modal-backdrop").eq(1).css({
-          "z-index": ZindexBackdrop
-        });
-
-        // move modal up (in z)
-        var ZindexModal = parseInt($(".modal").eq(0).css("z-index")) + 20;
-        console.log("Modal z-index: " + ZindexModal);
-        $(".modal").eq(1).css({
-          "z-index": ZindexModal
-        });
-      }
-    });
-  </script>
 <!---
   <script>
     $('.carousel').carousel({
@@ -2184,4 +2158,3 @@ Los resguardos otorgaban “posesión” de la tierra a los indígenas, sin que 
       snap: 1 / 26 // snap whole page to the closest section!
     });
   </script>-->
-</body>

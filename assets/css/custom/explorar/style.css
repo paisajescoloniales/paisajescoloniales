@@ -169,7 +169,6 @@ h5.descubrir-leyenda{
   font-weight: 800;
   margin: .2em auto;
   text-transform: uppercase;
-
 }
 
 .tooltiptext .tooltip-explain{
@@ -179,6 +178,32 @@ h5.descubrir-leyenda{
   text-align: left;
 }
 
-.modal-explore{
+.modal-explore-title{
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.1em;
+  text-align: center;
+  font-weight: 800;
+  margin: .2em auto;
+  text-transform: uppercase;
+}
+.modal-explore-explain{
+  font-family: 'Lora', serif;
+  font-size: .9em;
+  line-height: normal;
+  text-align: left;
+}
 
+.modal-pintura{
+  background-color: #8B3E34;
+  color:#F4EFEF;
+}
+
+.modal_fuente{
+  background-color: #180B26;
+  color:#F4EFEF;
+}
+
+.modal-dato{
+  background-color: #F4EFEF;
+  color:#180B26;
 }

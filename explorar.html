@@ -26,7 +26,7 @@ permalink: explora
   <div class="col-md-9 col-xs-12">
     <div class="tab-content" id="v-pills-tabContent">
       <div class="tab-pane explorar-tab fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
-        <div class=" .d-none .d-sm-block discover">
+        <div class="d-none d-md-block discover">
         <h4>Haz click en los íconos en el mapa para entender algunas de sus características. </h4>
         <div class="leyenda"><img class="icono-exp dato1" src="/desarrollo/assets/img/dato.svg"/>  <h5 class="descubrir-leyenda">Dato</h5></div>
         <div class="leyenda "><img class="icono-exp fuente1" src="/desarrollo/assets/img/fuente.svg"/> <h5 class="descubrir-leyenda">Fuente</h5></div>
@@ -249,7 +249,7 @@ Las sociedades nativas del Nuevo Mundo contaban con varios animales domesticados
 </article>
     </div>
   </div>
-  <div class=".d-block .d-sm-none">
+  <div class="d-sm-none">
 <div class="row">
   <div class="col-xs-4">
     <button type="button" class="btn btn-lg btn-img" data-toggle="modal" data-target="#myModale1"><img src="/desarrollo/assets/img/e1.jpg" /></button>
@@ -356,22 +356,45 @@ Las sociedades nativas del Nuevo Mundo contaban con varios animales domesticados
   </div>
 </div>
 
+  </div>
+  </div>
+  <!-- Explore modal -->
+  <div id="myModale1" class="modal fade" role="dialog">
+    <div class="modal-dialog">
 
+      <!-- Modal content-->
+      <div class="modal-content modal-dato">
+        <div class="modal-header">
+          <h6 class="modal-title"></h6>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+        </div>
+        <div class="modal-body">
+          <div class="_fuente"><div class="modal-explore-title">indios en la ciudad</div>
+       <div class="modal-explore-explain">
+       “habiendo entendido las desórdenes y excesos que ha habido en esta ciudad de Santa Fe sobre que los indios e indias ladinos mulatos y mulatas que en ella viven no estén con amos a quien sirvan y por esta razón andan ociosos y vagabundos de que resulta de ordinario en grandes daños e inconvenientes [...] y queriendo proveer acerca de esto lo que más a propósito pareciere convenir de su remedio de manera que cesasen las dichas desórdenes [...] por ahora nombraba y nombro señor administrador de los dichos indios y mulatos [...]”.
+       Instrucciones para el Administrador de Indios de Santa Fe, 1594.
+       </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 <!-- Explore modal -->
-<div id="myModale1" class="modal fade" role="dialog">
+<div id="myModale2" class="modal fade" role="dialog">
   <div class="modal-dialog">
 
     <!-- Modal content-->
-    <div class="modal-content modal-explore">
+    <div class="modal-content modal_fuente">
       <div class="modal-header">
         <h6 class="modal-title"></h6>
         <button type="button" class="close" data-dismiss="modal">&times;</button>
 
       </div>
       <div class="modal-body">
-        <div class="_fuente"><div class="tooltip-title">indios en la ciudad</div>
-     <div class="tooltip-explain">
+        <div class="_fuente"><div class="modal-explore-title">indios en la ciudad</div>
+     <div class="modal-explore-explain">
      “habiendo entendido las desórdenes y excesos que ha habido en esta ciudad de Santa Fe sobre que los indios e indias ladinos mulatos y mulatas que en ella viven no estén con amos a quien sirvan y por esta razón andan ociosos y vagabundos de que resulta de ordinario en grandes daños e inconvenientes [...] y queriendo proveer acerca de esto lo que más a propósito pareciere convenir de su remedio de manera que cesasen las dichas desórdenes [...] por ahora nombraba y nombro señor administrador de los dichos indios y mulatos [...]”.
      Instrucciones para el Administrador de Indios de Santa Fe, 1594.
      </div>
@@ -379,11 +402,33 @@ Las sociedades nativas del Nuevo Mundo contaban con varios animales domesticados
     </div>
   </div>
 </div>
+</div>
 
+<!-- Explore modal -->
+<div id="myModale3" class="modal fade" role="dialog">
+  <div class="modal-dialog">
 
+    <!-- Modal content-->
+    <div class="modal-content modal-pintura">
+      <div class="modal-header">
+        <h6 class="modal-title"></h6>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
 
+      </div>
+      <div class="modal-body">
+        <div class="_fuente"><div class="modal-explore-title">indios en la ciudad</div>
+     <div class="modal-explore-explain">
+     “habiendo entendido las desórdenes y excesos que ha habido en esta ciudad de Santa Fe sobre que los indios e indias ladinos mulatos y mulatas que en ella viven no estén con amos a quien sirvan y por esta razón andan ociosos y vagabundos de que resulta de ordinario en grandes daños e inconvenientes [...] y queriendo proveer acerca de esto lo que más a propósito pareciere convenir de su remedio de manera que cesasen las dichas desórdenes [...] por ahora nombraba y nombro señor administrador de los dichos indios y mulatos [...]”.
+     Instrucciones para el Administrador de Indios de Santa Fe, 1594.
+     </div>
+      </div>
+    </div>
   </div>
-  </div>
+</div>
+</div>
+
+</div>
+
       <div class="tab-pane explorar-tab fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
         <p>Navega libremente por el mapa, ampliando y reduciendo para conocer sus detalles.</p>
 <img src="/desarrollo/assets/img/mapa.png" />
