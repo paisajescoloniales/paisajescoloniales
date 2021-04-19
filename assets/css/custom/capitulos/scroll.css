@@ -259,7 +259,6 @@ display: flex;
 }
 
 .carousel-recuadro02{
-  height: 550px;
   vertical-align: middle;
 align-items: center;
 display: flex;
@@ -281,7 +280,7 @@ display: flex;
   text-align: center;
 }
 .carousel-item{
-  height: 625px!important;
+  height: 650px!important;
 }
 img.carousel-imagen{
   margin: auto;
@@ -384,4 +383,8 @@ span.fuente-link{
 .img-75{
   width: 75%;
   padding-top: 2%;
+}
+
+.definition{
+  width: 100%;
 }
