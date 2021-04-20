@@ -15,7 +15,7 @@
 }
 
 .modal-backdrop{
-  position: unset;
+  position: unset!important;
 }
 
 .modal.right .modal-content {
