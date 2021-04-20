@@ -193,17 +193,17 @@ h5.descubrir-leyenda{
   text-align: left;
 }
 
-.modal-pintura{
+.modal-content.modal-pintura{
   background-color: #8B3E34;
   color:#F4EFEF;
 }
 
-.modal_fuente{
+.modal-content.modal_fuente{
   background-color: #180B26;
   color:#F4EFEF;
 }
 
-.modal-dato{
+.modal-content.modal-dato{
   background-color: #F4EFEF;
   color:#180B26;
 }
