@@ -207,3 +207,12 @@ img.btn.btn-img:hover{
   border-radius: 4px;
   margin-bottom: 4%;
 }
+
+ @media screen and (max-width: 768px){
+   .modal.right .modal-dialog {
+    width: 95%;}
+    .modal-content.modal-mas {
+        padding-left: 3%;
+
+
+  }
