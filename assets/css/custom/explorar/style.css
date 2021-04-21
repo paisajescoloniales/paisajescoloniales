@@ -207,3 +207,15 @@ h5.descubrir-leyenda{
   background-color: #F4EFEF;
   color:#180B26;
 }
+
+.row.discover-xs{
+  padding: 0 1em;
+  margin: auto;
+  display: block;
+}
+
+.btn.puzzle{
+  padding: .5em 0;
+    margin: auto;
+    display: block;
+}
