@@ -9,7 +9,6 @@
 }
 
 .explorar-lista{
-  margin-left: 5%;
 }
 
 .nav-pills .nav-link.explorar-pill{
@@ -212,10 +211,22 @@ h5.descubrir-leyenda{
   padding: 0 1em;
   margin: auto;
   display: block;
+
 }
 
 .btn.puzzle{
   padding: .5em 0;
-    margin: auto;
-    display: block;
+  margin: auto;
+}
+
+.col-4.pieza-mapa{
+  padding: 0 2%;
+}
+
+.modal.piezas.fade{
+  background: rgb(0 0 0 / 30%);
+}
+
+.modal.piezas.fade .modal-dialog {
+    top: 15%;
 }

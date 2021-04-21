@@ -388,3 +388,33 @@ span.fuente-link{
 .definition{
   width: 100%;
 }
+ @media screen and (max-width: 767.9px) {
+   .titular {
+     top: 2%;
+   }
+
+   img.icono-cap {
+    max-width: 100px;
+ }
+ .ancla-capitulo {
+    width: 120px;
+    height: 120px;
+ }
+
+.answer {
+    vertical-align: unset;
+    top: 2%;
+    position: absolute;
+}
+
+h5.pregunta {
+    padding-bottom: .5em;
+}
+.contenedor {
+    padding-left: 0;
+    }
+
+    .question-container {
+      height: fit-content;
+      }
+ }
