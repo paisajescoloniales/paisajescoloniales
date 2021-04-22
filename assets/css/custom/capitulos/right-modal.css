@@ -210,14 +210,24 @@ img.btn.btn-img:hover{
 
  @media screen and (max-width: 767.9px){
    .modal.right .modal-dialog {
-    width: 95%;}
+    width: 100%;}
     .modal-content.modal-mas {
         padding-left: 3%;
  }
  .modal-dialog.modal-col7 {
-    max-width: 85%;
+    max-width: 92%;
 }
 .modal-dialog.modal-col8 {
-   max-width: 95%;
+   max-width: 96%;
 }
   }
+
+ @media screen and (max-width: 576.9px) {
+  .modal-body {
+    padding: .5em;
+}
+
+.modal p {
+    font-size: 1em;
+}
+}

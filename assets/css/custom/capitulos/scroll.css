@@ -38,7 +38,7 @@ p.panel, p.panel-home {
   left: 50%;
   -webkit-transform: translate(-50%, 0);
           transform: translate(-50%, 0);
-  color: black;
+  color: #F4EFEF;
   font-weight: 400;
   text-transform: uppercase;
   font-size: 16px;
@@ -99,8 +99,12 @@ h6.chapter{
   max-width: 1000px;
 }
 
-.chapter-intro h5{
+h5.chapter-subtitle{
   font-weight: 400;
+  margin: auto;
+    display: block;
+    vertical-align: middle;
+    max-width: 80%;
 }
 
 
@@ -375,10 +379,8 @@ span.fuente-link{
 }
 
 .img-50{
-  margin: auto;
-  display: block;
   width: 50%;
-  padding-bottom: 5%;
+  padding-top: 2%;
 }
 .img-75{
   width: 75%;
@@ -417,4 +419,17 @@ h5.pregunta {
     .question-container {
       height: fit-content;
       }
+
+ }
+ @media screen and (max-width: 576.9px) {
+   img.carousel-imagen {
+       max-width: 275px;
+   }
+ .carousel-item {
+     height: 400px;
+ }
+
+ h5.chapter-subtitle{
+   width: 100%;
+ }
  }
