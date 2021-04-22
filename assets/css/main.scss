@@ -110,12 +110,21 @@ img{
   justify-content: space-around;
 }
 
+ @media screen and (max-width: 767.9px){
+   h2{
+     padding-top: 6%;
+   }
+ }
  @media screen and (max-width: 576.9px) {
    h2{
      font-size: 2em!important;
     letter-spacing: 1.2px!important;
-   }
+    padding-top: 12%;
 
+   }
+   h3{
+       font-size: 1.5rem!important;
+   }
    h4{
      font-size: 1.25rem!important;
    }
