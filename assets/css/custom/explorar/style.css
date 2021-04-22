@@ -74,27 +74,27 @@
 
 .icono-exp.dato1{
   background-color: #F4EFEF;
-  height: 2.5em;
-  width:2.5em;
+  height: 2em;
+  width:2em;
   border-radius: 100%;
-    margin-right: 1%;
+    margin-right: 10%;
 }
 
 .icono-exp.fuente1{
   background-color: #180B26;
-  height: 2.5em;
-  width:2.5em;
+  height: 2em;
+  width:2em;
   border-radius: 100%;
   border: .5px solid #F4EFEF;
-  margin-right: 1%;
+  margin-right: 10%;
 }
 
 .icono-exp.pintura1{
     background-color: #8B3E34;
-    height: 2.5em;
-    width:2.5em;
+    height: 2em;
+    width:2em;
     border-radius: 100%;
-      margin-right: 1%;
+      margin-right: 10%;
 }
 
 h6.descubrir-leyenda{

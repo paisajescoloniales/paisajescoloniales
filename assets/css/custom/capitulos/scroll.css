@@ -419,6 +419,12 @@ h5.pregunta {
     .question-container {
       height: fit-content;
       }
+      .carousel-recuadro03 {
+      height: 100%;
+      vertical-align: unset;
+      align-items: center;
+      position: absolute!important;
+  }
 
  }
  @media screen and (max-width: 576.9px) {
@@ -426,10 +432,19 @@ h5.pregunta {
        max-width: 275px;
    }
  .carousel-item {
-     height: 400px;
+     height: 400px!important;
  }
 
  h5.chapter-subtitle{
    width: 100%;
+ }
+ .img-30, .img-50, .img-75{
+   width: 100%;
+ }
+ button.btn.btn-lg.btn-fuente {
+    margin-bottom: 5%;
+}
+.panel p, .panel li {
+    font-size: .75em;
  }
  }

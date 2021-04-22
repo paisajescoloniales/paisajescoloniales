@@ -230,4 +230,7 @@ img.btn.btn-img:hover{
 .modal p {
     font-size: 1em;
 }
+h4.mas-title {
+    font-size: 1.25em!important;
+}
 }
