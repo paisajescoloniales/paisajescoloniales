@@ -6,36 +6,3 @@
     background-size: 260%!important;
   }
 }
-
-
-
-@media screen and (max-width: 767.9px) {
-  .wax-inline-container {
-      padding: 0;
-  }
-  .item-view {
-    width: 100%;
-
-    }
-    .wax-inline-container {
-    max-width: 100%;
-    overflow: visible;
-}
-
-}
-
-@media screen and (max-width: 576.9px){
-  h3.item-label {
-      padding-top: 25%;
-  }
-  dl.metadata-block{
-    padding: 0;
-  }
-}
-
-
-@media screen and (max-width: 325px) {
-
-  .wax-gallery-container .wax-gallery .gallery-item {
-    margin: .125rem; }
-}

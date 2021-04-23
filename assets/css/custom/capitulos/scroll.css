@@ -401,6 +401,7 @@ span.fuente-link{
  .ancla-capitulo {
     width: 120px;
     height: 120px;
+    margin: .5em 1em;
  }
 
 .answer {
@@ -438,8 +439,12 @@ h5.pregunta {
  h5.chapter-subtitle{
    width: 100%;
  }
- .img-30, .img-50, .img-75{
+ .img-50, .img-75{
    width: 100%;
+ }
+
+ .img-30{
+   width: 50%;
  }
  button.btn.btn-lg.btn-fuente {
     margin-bottom: 5%;
@@ -447,4 +452,7 @@ h5.pregunta {
 .panel p, .panel li {
     font-size: .75em;
  }
+ h2.subtitle-chapter {
+    padding-top: 1%;
+}
  }
