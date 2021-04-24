@@ -21,15 +21,15 @@
 title: Paisajes Coloniales
 email: paisajescoloniales@gmail.com
 description: Redibujando los territorios andinos en el siglo XVII
-baseurl: "/desarrollo" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "www.paisajescoloniales.com" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:
 tagline: Redibujando los territorios andinos en el siglo XVII
 twitter:
   username: Paisajescoloni1
   card: summary
-logo: /desarrollo/assets/img/logo.png
-image: /desarrollo/assets/img/logo-image.png
+logo: /assets/img/logo.png
+image: /assets/img/logo-image.png
 
 # Build settings
 theme: null

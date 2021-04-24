@@ -50,7 +50,7 @@ p.panel, p.panel-home {
   margin: 0 auto;
   width: 2em;
   height: 2em;
-  background-image: url("/desarrollo/assets/img/flecha.svg");
+  background-image: url("/assets/img/flecha.svg");
   background-size: contain;
 }
 
@@ -122,7 +122,7 @@ h5.chapter-subtitle{
 .bg-map{
   width: 100%;
   height: 100%;
-  background-image: url("/desarrollo/assets/img/mapa.png");
+  background-image: url("/assets/img/mapa.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -131,7 +131,7 @@ h5.chapter-subtitle{
 .bg-map-2{
   width: 100%;
   height: 100%;
-  background-image: url("/desarrollo/assets/img/mapa2.png");
+  background-image: url("/assets/img/mapa2.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;

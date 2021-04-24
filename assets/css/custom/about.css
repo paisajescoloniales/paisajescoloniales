@@ -8,7 +8,7 @@
 }
 
 .title-about {
-  padding: 5% 2%;
+  padding: 5% 2% 2%;
 }
 
 h1.titulo-seccion{
@@ -29,7 +29,14 @@ span.sangria-izq{
   margin-left: 2%;
 }
 
-img.logos{
-  max-width: 75px;
+img.logo{
+  max-width: 200px;
   padding-top: 5%;
 }
+
+ @media screen and (max-width: 767.9px){
+p.cuerpo{
+  font-size: 1.1em!important;
+}
+
+   }
