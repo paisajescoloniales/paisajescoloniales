@@ -89,13 +89,15 @@ padding-top: 1rem;
 }
 
 .foot-capitulos {
-    padding-bottom: 2em;
 }
-
 .foot-explorar{
-  margin-bottom: .5rem;
 }
-
+.col-md-3.col-12.foot-margin{
+  margin-top: 2%;
+}
+.col-12.foot-right{
+  padding-right: 0!important;
+}
 
 .credits{
   border-top: solid 1px #F4EFEF;
@@ -120,6 +122,11 @@ padding-top: 1rem;
 }
 
 .col-md-3.col-12.col-foot {
-padding: 10px;
+padding: 1% 0 0 1%;
+}
+
+.row.footer-list {
+    margin: auto!important;
+    display: block!important;
 }
 }
