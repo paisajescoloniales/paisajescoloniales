@@ -7,6 +7,10 @@
   text-align: left;
 }
 
+.title-about {
+  padding: 5% 2%;
+}
+
 h1.titulo-seccion{
   font-family: 'Lora', serif;
   font-weight: 800;
@@ -19,4 +23,13 @@ h1.titulo-seccion{
 p.cuerpo{
   font-family: 'Raleway', sans-serif;
   font-weight: 300;
+}
+
+span.sangria-izq{
+  margin-left: 2%;
+}
+
+img.logos{
+  max-width: 75px;
+  padding-top: 5%;
 }

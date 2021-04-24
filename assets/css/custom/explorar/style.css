@@ -234,7 +234,7 @@ padding-left: 1%
 .modal.piezas.fade .modal-dialog {
     top: 15%;
 }
- @media screen and (max-width: 576.9px) {
+ @media screen and (max-width: 575.9px) {
 .icono-exp.fuente1, .icono-exp.pintura1, .icono-exp.dato1 {
   height: 2em;
     width: 2em;
