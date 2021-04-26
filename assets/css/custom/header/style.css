@@ -30,7 +30,7 @@ img.casita {
 }
 
 .navbar-toggler-icon{
-  background-image: url("/desarrollo/assets/img/casita.png")!important;
+  background-image: url("/assets/img/casita.png")!important;
 }
 
 .navbar-toggler-icon:focus{
