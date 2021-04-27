@@ -4,8 +4,14 @@ layout: default_main
 permalink: explora
 ---
 
-<style>.embed-container {position: relative; padding-bottom: 80%; height: 0; max-width: 100%;} .embed-container iframe, .embed-container object, .embed-container iframe{position: absolute; top: 0; left: 0; width: 100%; height: 100%;} small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}</style>
 
+<style>.embed-container {position: relative; padding-bottom: 70%; height: 0; max-width: 100%;} .embed-container iframe, .embed-container object, .embed-container iframe{position: absolute; top: 0; left: 0; width: 100%; height: 100%;} small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}
+ @media screen and (max-width: 767.9px){
+   .embed-container{
+     padding-bottom: 150%;
+   }
+ }
+</style>
 
 
 <div class="bg-oscuro explore">
@@ -440,13 +446,21 @@ Las sociedades nativas del Nuevo Mundo contaban con varios animales domesticados
     </div>
       <div class="tab-pane explorar-tab fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
   <p>Acá aparece la <i>Pintura de las tierras de Bogotá</i> superpuesta al mapa actual. La superposición es aproximada, dado que las escalas de la pintura y el mapa contemporáneo no coinciden exactamente.</p>
-  <div class="embed-container"><iframe width="500" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="Maldonado_1614_III" src="//www.arcgis.com/apps/Embed/index.html?webmap=44ca2ca965d5456a9d6111a98187e575&extent=-74.533945,4.593524,-74.184213,4.88549&zoom=true&previewImage=false&scale=true&disable_scroll=true&theme=dark"></iframe></div>
-  <!---  <div class="embed-container"><iframe width="500" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="Maldonado_1614" src="//www.arcgis.com/apps/Embed/index.html?webmap=e7271f198afd4379b6360cb738bd8250&extent=-74.533945,4.593524,-74.184213,4.88549&zoom=true&previewImage=false&scale=true&basemap_gallery=true&disable_scroll=true&theme=light"></iframe></div>-->
+
+<div class="d-none d-md-block">
+ <div class="embed-container"><iframe width="500" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="Maldonado_1614" src="//www.arcgis.com/apps/Embed/index.html?webmap=e7271f198afd4379b6360cb738bd8250&extent=-74.533945,4.593524,-74.184213,4.88549&zoom=true&previewImage=false&scale=true&basemap_gallery=true&disable_scroll=true&theme=light"></iframe></div>
+</div>
+<div class="d-md-none">
+<div class="embed-container"><iframe width="400" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="Maldonado_1614" src="//www.arcgis.com/apps/Embed/index.html?webmap=e7271f198afd4379b6360cb738bd8250&extent=-74.7847,4.3121,-73.4389,5.0088&zoom=true&previewImage=false&scale=true&disable_scroll=true&theme=dark"></iframe></div>
+</div>
       </div>
       <div class="tab-pane explorar-tab fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
       <p>Esta es una vista distorsionada de la <i>Pintura de las tierras de Bogotá</i> que construimos para mostrar la diferencia entre la escala que maneja con la que usamos hoy. Así se vería la Pintura si buscáramos que la escala representada en ella coincidiera con la de nuestro mapa actual.
       </p>
-          <div class="embed-container"><iframe width="500" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="Maldonado_1614_III" src="//www.arcgis.com/apps/Embed/index.html?webmap=44ca2ca965d5456a9d6111a98187e575&extent=-74.533945,4.593524,-74.184213,4.88549&zoom=true&previewImage=false&scale=false&disable_scroll=true&theme=light"></iframe></div>
+      <div class="d-none d-md-block">
+          <div class="embed-container"><iframe width="500" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="Maldonado_1614_III" src="//www.arcgis.com/apps/Embed/index.html?webmap=44ca2ca965d5456a9d6111a98187e575&extent=-74.4791,4.5149,-73.8062,4.8632&zoom=true&previewImage=false&scale=true&disable_scroll=true&theme=dark"></iframe></div> </div>
+<div class="d-md-none">
+<div class="embed-container"><iframe width="400" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="Maldonado_1614_III" src="//www.arcgis.com/apps/Embed/index.html?webmap=44ca2ca965d5456a9d6111a98187e575&extent=-74.3286,4.5891,-73.9922,4.7633&zoom=true&previewImage=false&scale=true&disable_scroll=false&theme=dark"></iframe></div> </div>
     </div>
     </div>
   </div>

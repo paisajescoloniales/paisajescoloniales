@@ -213,16 +213,19 @@ padding-left: 1%
 .modal-content.modal-pintura{
   background-color: #8B3E34;
   color:#F4EFEF;
+  padding-bottom: 2em;
 }
 
 .modal-content.modal_fuente{
   background-color: #180B26;
   color:#F4EFEF;
+  padding-bottom: 2em;
 }
 
 .modal-content.modal-dato{
   background-color: #F4EFEF;
   color:#180B26;
+  padding-bottom: 2em;
 }
 
 .row.discover-xs{
