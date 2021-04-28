@@ -137,6 +137,20 @@ h5.chapter-subtitle{
   background-repeat: no-repeat;
 }
 
+.bg-map-cel{
+  width: 100%;
+  background-image: url("/assets/img/mapa2.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.row.contenedor.cel {
+  margin-left: 0;
+  margin-right: 0;
+  padding-top: 0;
+  height: 100%;
+}
 img.mapa{
   width: 100%;
 }
@@ -428,7 +442,7 @@ h5.pregunta {
   }
 
  }
- @media screen and (max-width: 576.9px) {
+ @media screen and (max-width: 575.9px) {
    img.carousel-imagen {
        max-width: 275px;
    }
@@ -455,4 +469,28 @@ h5.pregunta {
  h2.subtitle-chapter {
     padding-top: 1%;
 }
+.scroll-down {
+  font-size: 14px
  }
+ .question-container {
+   height: auto;
+   }
+   .answer {
+    vertical-align: middle;
+    position: unset;
+}
+ }
+
+  @media screen and (max-width: 340px){
+    .ancla-capitulo {
+       width: 90px;
+       height: 90px;
+       margin: .5em 1em;
+    }
+    img.icono-cap {
+    max-width: 75px;
+}
+h2.subtitle-chapter {
+    font-size: 1.7em!important;
+}
+  }

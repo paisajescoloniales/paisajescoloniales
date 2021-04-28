@@ -117,7 +117,7 @@ img{
      padding-top: 6%;
    }
  }
- @media screen and (max-width: 576.9px) {
+ @media screen and (max-width: 575.9px) {
    h2{
      font-size: 2em!important;
     letter-spacing: 1.2px!important;
@@ -134,4 +134,16 @@ img{
    h5{
     font-size: 1.1rem!important;
 }
+ }
+
+ @media screen and (max-width: 340px){
+h2 {
+    font-size: 1.9em !important;
+   }
+   h5 {
+    font-size: 1rem !important;
+}
+ h4{
+     font-size: 1.1rem !important;
+ }
  }

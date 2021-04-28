@@ -179,7 +179,7 @@ a.link-adicional:hover{
  }
  }
 
- @media screen and (max-width: 576.9px) {
+ @media screen and (max-width: 575.9px) {
     .bg-img h1{
       font-size: 3em;
       letter-spacing: .1rem;
