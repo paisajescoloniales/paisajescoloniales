@@ -415,7 +415,7 @@ span.fuente-link{
  .ancla-capitulo {
     width: 120px;
     height: 120px;
-    margin: .5em 1em;
+    margin: .5em auto;
  }
 
 .answer {
@@ -478,14 +478,15 @@ h5.pregunta {
    .answer {
     vertical-align: middle;
     position: unset;
-}
+ }
+ .panel{
+   padding: 0!important;
  }
 
   @media screen and (max-width: 340px){
     .ancla-capitulo {
        width: 90px;
        height: 90px;
-       margin: .5em 1em;
     }
     img.icono-cap {
     max-width: 75px;
