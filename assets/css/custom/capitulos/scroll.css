@@ -138,7 +138,7 @@ h5.chapter-subtitle{
 }
 
 .bg-map-cel{
-  width: 100%;
+  width: 110%;
   background-image: url("/assets/img/mapa2.png");
   background-position: center;
   background-size: cover;
@@ -444,12 +444,12 @@ h5.pregunta {
  }
  @media screen and (max-width: 575.9px) {
    img.carousel-imagen {
-       max-width: 275px;
+       max-width: 80%;
    }
- .carousel-item {
-     height: 400px!important;
+   .carousel {
+     height: 90%;
+     padding-top: 25%;
  }
-
  h5.chapter-subtitle{
    width: 100%;
  }
@@ -482,8 +482,14 @@ h5.pregunta {
  .panel{
    padding: 0!important;
  }
-
-  @media screen and (max-width: 340px){
+ .carousel-image p.piedefoto {
+    max-width: 300px;
+}
+.carousel-inner{
+  position: initial;
+}
+}
+  @media screen and (max-width: 360px){
     .ancla-capitulo {
        width: 90px;
        height: 90px;
