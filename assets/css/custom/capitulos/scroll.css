@@ -289,7 +289,13 @@ align-items: center;
 display: flex;
 }
 .carousel-recuadro-img{
-  max-width: 345px;
+  max-width: 350px;
+    margin: auto;
+    display: block;
+}
+
+.carousel-recuadro-img-lg{
+  max-width: 500px;
     margin: auto;
     display: block;
 }
@@ -300,10 +306,25 @@ display: flex;
 .carousel-item{
   height: 650px!important;
 }
+
+.carousel-item._lg{
+  height: 685px!important;
+}
+
+.carousel-item._sm{
+  height: 600px!important;
+}
+
 img.carousel-imagen{
   margin: auto;
   display: block;
   max-width: 400px;
+}
+
+img.carousel-imagen-lg{
+  margin: auto;
+  display: block;
+  max-width: 510px;
 }
 
 img.carousel-imagen-v{
@@ -353,7 +374,7 @@ h5.fuente-doc {
   color: #F4EFEF;
   letter-spacing: 0.5px;
 line-height: 1.4;
-font-size: .9em;
+font-size: .9em!important;
 }
 
 h6.fuente-bibliografia {
@@ -500,4 +521,8 @@ h5.pregunta {
 h2.subtitle-chapter {
     font-size: 1.7em!important;
 }
+h5.chapter-subtitle {
+    font-size: .95rem!important;
+}
+
   }

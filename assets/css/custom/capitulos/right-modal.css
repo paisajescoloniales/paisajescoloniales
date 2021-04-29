@@ -233,4 +233,8 @@ img.btn.btn-img:hover{
 h4.mas-title {
     font-size: 1.25em!important;
 }
+
+.modal.right .modal-body.fuentetexto {
+    width: 100%;
+}
 }
