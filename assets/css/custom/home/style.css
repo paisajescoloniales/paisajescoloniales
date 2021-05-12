@@ -121,7 +121,7 @@ a.link-adicional:hover{
    }
  }
 
- @media screen and (max-width: 1080px) {
+ @media screen and (max-width: 1081px) {
     .bg-img h1{
       font-size: 4em;
     }

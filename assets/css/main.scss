@@ -53,6 +53,12 @@ p{
   font-weight: 300;
 }
 
+li{
+  font-size: 18px;
+  font-family: 'Lora', serif;
+  font-weight: 300;
+  padding-top: 2%;
+}
 p.piedefoto{
   font-size: .8em !important;
   font-family: 'Raleway', sans-serif!important;
@@ -66,7 +72,8 @@ p.piedefoto.centro{
 }
 
 a{
-  color: #99C8F2;
+  color: #739CBF;
+  text-decoration: underline;
 }
 img{
   width: 100%;
