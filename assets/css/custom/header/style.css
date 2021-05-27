@@ -54,3 +54,24 @@ img.casita {
 .nav-link.secundario:hover{
   color: #99C8F2;
 }
+
+span.idioma{
+    font-size: 11px;
+    padding-left: 4px;
+}
+a.active-idioma{
+  color: #F4EFEF;
+  font-weight: 700
+}
+
+a.otro-idioma{
+  color: #F4EFEF;
+  font-weight: 300
+}
+a.active-idioma:hover{
+  color: #99C8F2;
+}
+
+a.otro-idioma:hover{
+  color: #99C8F2;
+}
