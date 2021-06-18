@@ -102,7 +102,6 @@ content section
   width: 100vw;
   max-width: 100%;
   padding-top: $margin;
-  padding-bottom: 5rem;
 
   h1, h2, h3, h4, h5, h5 {
     margin-bottom: $less-margin;
@@ -269,6 +268,7 @@ content section
   margin-left: -50vw;
   margin-right: -50vw;
   margin-bottom: $more-margin;
+  padding-bottom: 3em;
 }
 
 .wax-parallax.inline-parallax {

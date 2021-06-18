@@ -1,7 +1,7 @@
 
 .contendor-acerca{
   max-width: 800px;
-  padding: 2em 1.3em;
+  padding: 2em 1.3em 3em;
   margin: auto;
   display: block;
   text-align: left;
@@ -38,7 +38,9 @@ img.logo2{
   max-width: 400px;
   padding: 5% 2%;
 }
-
+h3.margen-arriba{
+  margin-top: 5%;
+}
  @media screen and (max-width: 767.9px){
 p.cuerpo{
   font-size: 1.1em!important;

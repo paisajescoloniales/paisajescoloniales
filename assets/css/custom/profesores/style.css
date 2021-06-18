@@ -30,3 +30,17 @@ section.botones-curso{
 section.intro-profesores{
   padding-top: 2%;
 }
+ .recuadro-competencias{
+   background-color: #F4EFEF;
+   color: #180B26;
+   padding: 1.5em;
+ }
+
+ .recuadro-actividades{
+
+ }
+
+ .activity{
+   border-left: solid 1px #739CBF;
+   padding-left: 1em;
+ }
