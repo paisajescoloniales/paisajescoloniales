@@ -31,16 +31,21 @@ section.intro-profesores{
   padding-top: 2%;
 }
  .recuadro-competencias{
-   background-color: #F4EFEF;
+   background-color: #739CBF;
    color: #180B26;
    padding: 1.5em;
+   width: fit-content;
+margin: 1.5em 0;
  }
 
  .recuadro-actividades{
-
+padding-top: 1.5em;
  }
-
+.titulo-azul{
+  color: #739CBF;
+}
  .activity{
    border-left: solid 1px #739CBF;
    padding-left: 1em;
+   padding-top: 1.5em;
  }
