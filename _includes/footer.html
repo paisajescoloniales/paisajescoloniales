@@ -40,9 +40,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollToPlugin.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
 
-<script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js?r=5426'></script>
-<script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js'></script>
-<script src='https://codepen.io/GreenSock/pen/7ba936b34824fefdccfe2c6d9f0b740b.js'></script>
 
 
 <script>
@@ -54,6 +51,8 @@
       start: "top top",
       pin: true,
       pinSpacing: false,
+      onEnter: () => panel.style.pointerEvents = 'auto',
+      onLeave: () => panel.style.pointerEvents = 'none',
     });
   });
 
